@@ -447,5 +447,3 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
 
 
-</div>
-{% endcomment %}
