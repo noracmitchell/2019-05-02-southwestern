@@ -14,7 +14,7 @@ enddate: 2019-05-03        # machine-readable end date for the workshop in YYYY-
 instructor: ["Nora Mitchell", "David Welch"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["sieversj@southwestern.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-page.collaborative_notes: https://pad.carpentries.org/2019-05-02-southwestern            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-05-02-southwestern            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -245,6 +245,17 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <p>
   We will use <a href="https://b.socrative.com/login/student/">socrative</a> for assessing understanding. Room name: <b>SOUTHWESTERN</b>.
 </p>
+<hr/>
+
+<p id="data">
+<strong>Data:</strong>
+  <br/>
+  Here is a link to the data we will be using for the workshop.
+  <ul>
+    <li>R Data: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv" download>Gapminder Dataset</a></li> (CTRL + S, right mouse click -> “Save as”, or File -> “Save page as”)
+  </ul>
+</p>
+
 <hr/>
 
 {% comment %}
