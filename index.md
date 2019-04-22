@@ -14,7 +14,7 @@ enddate: 2019-05-03        # machine-readable end date for the workshop in YYYY-
 instructor: ["Nora Mitchell", "David Welch"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["sieversj@southwestern.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2019-05-02-southwestern            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+page.collaborative_notes: https://pad.carpentries.org/2019-05-02-southwestern            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -228,26 +228,23 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endif %}
 
 {% comment %}
-Collaborative Notes
+  Collaborative 
 
-If you want to use an Etherpad, go to
+  If you want to use an Etherpad, go to
 
-http://pad.carpentries.org/YYYY-MM-DD-site
+      http://pad.software-carpentry.org/YYYY-MM-DD-site
 
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
+  where 'YYYY-MM-DD-site' is the identifier for your workshop,
+  e.g., '2015-06-10-esu'.
 {% endcomment %}
-{% if _notes %}
+
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
-{% endif %}
 
 <p>
   We will use <a href="https://b.socrative.com/login/student/">socrative</a> for assessing understanding. Room name: <b>SOUTHWESTERN</b>.
 </p>
-<hr/>
-
 <hr/>
 
 {% comment %}
