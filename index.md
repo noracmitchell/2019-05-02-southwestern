@@ -252,6 +252,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
   <br/>
   Here is a link to the data we will be using for the workshop.
   <ul>
+    <li>Spreadsheet data: <a href = "https://ndownloader.figshare.com/files/2252083">Survey Data </a></li>
     <li>R Data: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv" download>Gapminder Dataset</a></li> (CTRL + S, right mouse click -> “Save as”, or File -> “Save page as”)
   </ul>
 </p>
